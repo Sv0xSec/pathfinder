@@ -3,9 +3,8 @@ name = "pathfinder"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+members = ["dir", "pathfinder_app"]
+
 
 [dependencies]
-serde = { version = "1.0", features = ["derive"], optional = true }
-
-[features]
-serde = ["dep:serde"]

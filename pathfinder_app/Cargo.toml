@@ -1,0 +1,8 @@
+[package]
+name = "pathfinder_app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dir = { path = "../dir" }
+clap = { version = "4", features = ["derive"] }
